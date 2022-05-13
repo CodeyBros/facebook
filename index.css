@@ -1,0 +1,191 @@
+/* Universal  */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Container */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Logo */
+.logo {
+    margin-top: 180px;
+    margin-left: 10%;
+    padding-right: 3%;
+}
+h2 {
+    color: #1877f2;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+}
+.logo p {
+    font-size: 25px;
+    padding-right: 10%;
+    font-weight: 100;
+}
+
+
+/* Reg Form */
+#form-container {
+    text-align: center;
+    margin-right: 10%;
+    
+}
+.reg-form {
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 30px 15px 10px;
+    border-radius: 5px;
+}
+.reg-form form {
+    text-align: center;
+}
+.reg-form input {
+    width: 100%;
+    height: 45px;
+    padding: 2px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+.reg-form input:focus {
+    outline: none;
+    border: 2px solid #2e86fa;
+}
+
+
+/* Login Button */
+.reg-form .login {
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: #1877f2;
+    margin: 8px 0;
+    border: none;
+    font-size: 15px;
+}
+.reg-form .login a {
+    color: white;
+}
+#forgotP a:hover {
+    text-decoration: underline;
+}
+#forgotP a {
+    margin: 8px 0;
+    color: #2e86fa;
+}
+hr {
+    margin: 15px 0;
+}
+#smallscreen-hr {
+    display: none;
+}
+#smallscreen-br {
+    display: none;
+}
+
+/* Create Acc Button */
+.reg-form .createAcc {
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    background-color: rgb(28, 179, 28);
+    width: 60%;
+    height: 45px;
+    font-size: 15px;
+}
+.reg-form .createAcc a {
+    color: white;
+}
+
+/* Sub Reg Form */
+.createPG {
+    margin-top: 30px;
+    color: black;
+}
+.createPG a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Buttom Links */
+.buttom-links {
+    margin-top: 100px;
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.buttom-links a:hover {
+    text-decoration: underline;
+}
+
+/* Language */
+.lang {
+    margin-left: 10%;
+    padding-top: 30px;
+    margin-right: 10%;
+}
+.lang a {
+    font-size: 13px;
+    padding-right: 7px;
+    color: grey;
+}
+#plusbtn {
+    width:40px;
+    height: 25px;
+    color: grey;
+}
+#plusbtn span {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -5px;
+}
+#buttom-link {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+/* Extra Links */
+.links {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.links a {
+    font-size: 13px;
+    padding-right: 7px;
+    color: grey;
+}
+
+
+/* Meta */
+.meta {
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 12px;
+    color: grey;
+}
